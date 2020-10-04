@@ -26,13 +26,40 @@ async def on_message(message):
         return
 
     res = [
-         'Nice!!', 'VSDK', 'Hot funeral selfies', 'I slay it, Queen'
+        'Nice!!', 'VSDK', 'Hot funeral selfies', 'I slay it, Queen'
     ]
+    howgay = ['sala 100% gay ho yaar ', '100%', 'risheb ta lastai gay ho']
+
+    budi = ['Preeti ho preeti', 'Binayak vsdk ho', 'binayak ra risheb honeymoon ma gaisakyo', 'Rekha thapa ho fix']
+
+    hi = ['K vo muji', 'bhuk!', 'Chup lag chtiya']
+
+    among = ['Ma pani khelne ho muji', 'Ma ni auchu', 'Khaja khara auchu pakh']
+
+     class =
+
+    if message.content == 'howgay risheb':
+        response = random.choice(howgay)
+        await message.channel.send(response)
+
+    if message.content == 'risheb ko budi ko ho?':
+        response = random.choice(budi)
+        await message.channel.send(response)
 
     if message.content == '69':
         response = random.choice(res)
         await message.channel.send(response)
 
+    if message.content == 'hi':
+        response = random.choice(res)
+        await message.channel.send(response)
+
+    if message.content == 'among':
+        response = random.choice(res)
+        await message.channel.send(response)
+
+
 client.run(TOKEN)
+
 
 
